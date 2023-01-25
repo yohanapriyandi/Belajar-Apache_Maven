@@ -10,4 +10,11 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>belajar-apache-maven-app</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>ardha-studio</groupId>
+            <artifactId>belajar-apache-maven-data</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
